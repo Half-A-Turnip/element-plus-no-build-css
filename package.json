@@ -1,0 +1,26 @@
+{
+  "name": "vite-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build-tsc": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^1.1.0-beta.12",
+    "vue": "^3.2.6",
+    "vue-router": "^4.0.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.1",
+    "@vue/compiler-sfc": "^3.2.6",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4",
+    "vue-tsc": "^0.2.2",
+    "@rollup/pluginutils": "^4.1.0",
+    "es-module-lexer": "^0.7.1",
+    "magic-string": "^0.25.7",
+    "unplugin": "^0.2.7"
+  }
+}
