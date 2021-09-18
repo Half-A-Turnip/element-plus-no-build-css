@@ -1,11 +1,9 @@
-<script setup lang="ts">
-import { ElButton } from 'element-plus'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <el-button type="primary">app按钮</el-button>
-  <br>
+  <br />
   <router-link :to="{ path: './page1' }">按我到子路由页面</router-link>
   <router-view></router-view>
 </template>
