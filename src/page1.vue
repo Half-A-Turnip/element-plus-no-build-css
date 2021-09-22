@@ -11,7 +11,7 @@
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue'
-// import { ElButton, ElCheckbox, ElCheckboxGroup } from 'element-plus'
+import { ElButton, ElCheckbox, ElCheckboxGroup } from 'element-plus'
 const order = ref([])
 console.log(order.value)
 </script>
